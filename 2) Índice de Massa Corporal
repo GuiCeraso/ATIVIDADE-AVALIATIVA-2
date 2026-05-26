@@ -5,5 +5,5 @@ if IMC <18.5:
     print("\nABAIXO DO PESO")
 elif IMC <24.9:
     print("\nPESO NORMAL")
-elif IMC >= 25:
+else:
     print("\nACIMA DO PESO")
