@@ -1,1 +1,12 @@
-
+login_correto = "admin"
+senha_correta = 1234
+login = input("DIGITE SEU LOGIN: ") 
+senha = int(input("DIGITE SUA SENHA: "))
+if login == login_correto and senha==senha_correta:
+    print("VOCÊ ENTROU!!")
+elif login == login_correto and senha != senha_correta:
+    print("SENHA INCORRETA!")
+elif login != login_correto and senha == senha_correta:
+    print("LOGIN INCORRETO!")
+else:
+    print("LOGIN E SENHA ERRADOS!")
