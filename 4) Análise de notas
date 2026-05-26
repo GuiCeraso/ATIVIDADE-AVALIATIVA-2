@@ -1,0 +1,12 @@
+nota1 = float(input("DIGITE A PRIMEIRA NOTA: "))
+nota2 = float(input("DIGITE A SEGUNDA NOTA: "))
+presenca = int(input("DIGITE A FREQUENCIA: "))
+media = nota1+nota2/2
+if media >= 7.0 and presenca >= 75:
+    print("APROVADO!!!")
+elif media >= 7.0 and presenca <75:
+    print("REPROVADO POR FALTA!!!")
+elif media < 7.0 and presenca >= 75:
+    print("REPROVADO POR NOTA!!!")
+else:
+    print("REPROVADO POR NOTA E PRESENÇA!!!")
